@@ -1,26 +1,25 @@
 # 📄 AI PDF Chatbot (RAG System)
 
-A fully functional, local **Retrieval-Augmented Generation (RAG)** chatbot application. This project enables users to upload any PDF document (like a resume, textbook, or manual) and have an interactive, context-aware chat session with it. 
+A fully functional Retrieval-Augmented Generation (RAG) chatbot application. This project enables users to upload any PDF document (like a resume, textbook, or manual) and have an interactive, context-aware chat session with it.
 
-Built with a fast decoupled backend API and a clean, reactive frontend user interface.
+🔗 **Live Demo:** [Click here to try the app live!](https://pdf-ai-chatbot-nr6oxfrrgbvfjynbgsctlf.streamlit.app/)
 
----
+Built with a fast, cloud-optimized structure and a clean, reactive frontend user interface.
 
 ## 🚀 Features
-* **Dynamic PDF Upload & Processing:** Uses `LangChain` to dynamically parse and split documents into optimized text chunks.
-* **Local Vector Store:** Utilizes `FAISS` to store mathematical embeddings locally, ensuring quick retrieval without complex external database infrastructure.
-* **Modern LLM Integration:** Integrated with Google's advanced `gemini-2.5-flash` for high-performance context processing and text generation.
-* **Interactive UI:** A conversational interface built entirely with `Streamlit` featuring clean chat history formatting.
-* **Decoupled Architecture:** Built using a high-performance `FastAPI` backend endpoint structure.
 
----
+* **Dynamic PDF Upload & Processing:** Uses LangChain to dynamically parse and split documents into optimized text chunks.
+* **Local Vector Store:** Utilizes FAISS to store mathematical embeddings natively, ensuring quick retrieval without complex external database infrastructure.
+* **Modern LLM Integration:** Integrated with Google's advanced `gemini-2.5-flash` for high-performance context processing and text generation.
+* **Interactive UI:** A conversational interface built entirely with Streamlit featuring clean chat history formatting.
 
 ## 🛠️ Tech Stack
-* **Backend:** Python, FastAPI, Uvicorn
-* **AI/RAG:** LangChain, Google Gemini API, FAISS (Facebook AI Similarity Search)
-* **Frontend:** Streamlit, Requests
 
-<img src="ai pdf chatbot result.png" alt="App Screenshot" width="100%">
+* **Frontend & Processing:** Streamlit, Python
+* **AI/RAG Framework:** LangChain, LangChain-Classic
+* **Vector Database:** FAISS (Facebook AI Similarity Search)
+* **LLM & Embeddings:** Google Gemini API, HugfulFace Transformers (`all-MiniLM-L6-v2`)
+
 ---
 
 ## ⚙️ Setup and Installation
