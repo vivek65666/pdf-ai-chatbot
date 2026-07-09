@@ -34,7 +34,7 @@ if uploaded_file and process_button:
         # Save temporary file
         temp_path = f"temp_{uploaded_file.name}"
         with open(temp_path, "wb") as f:
-            f.write(uploaded_file.get_buffer())
+            f.write(uploaded_file.read())
         
         # Load and split
         loader = PyPDFLoader(temp_path)
