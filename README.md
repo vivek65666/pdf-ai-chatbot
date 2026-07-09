@@ -20,7 +20,7 @@ Built with a fast decoupled backend API and a clean, reactive frontend user inte
 * **AI/RAG:** LangChain, Google Gemini API, FAISS (Facebook AI Similarity Search)
 * **Frontend:** Streamlit, Requests
 
-![App Screenshot](ai pdf chatbot result.png)
+<img src="ai pdf chatbot result.png" alt="App Screenshot" width="100%">
 ---
 
 ## ⚙️ Setup and Installation
