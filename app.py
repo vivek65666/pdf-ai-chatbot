@@ -42,7 +42,8 @@ if uploaded_file and process_button:
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
         splits = text_splitter.split_documents(docs)
         
-       embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004", google_api_key=api_key)
+       # Create Embeddings and Vector Store
+        embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004", google_api_key=api_key)
         st.session_state.vector_store = FAISS.from_documents(splits, embeddings)
         
         # Clean up temp file
